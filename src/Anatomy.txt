@@ -1,0 +1,56 @@
+//Java 8 (w/ MOSH)
+//Just basic notes on this entire course ya digggg
+
+IDE = Integrated Development Environment ==== (Software that helps us write software.)
+// ANATOMY OF A JAVA PROGRAM
+//MAIN POINTERS>>>
+JDK---- Java Developer Kit - is a developer kit for tools to make programs
+    JRE----- Java Runtime Env. - has libraries of commands and imports to help create these modules.
+        JVM ----- Java Virtual Machine - It physically runs java programs by creating a VM to run it on and upload/compile it for us.
+Java is a compiler language meaning that it scans the entire program and translates the whole of it into machine code at once.
+^^^ THis means that the language is faster and has better performance but in return its harder to write and harder to debug
+^^^ Has a Method and that method resides inside of a class
+^^^ Some programs in whose classes and methods are stored in a PACKAGE.
+
+Java is a compiler so it looks at our source code and it converts into machine code(binary).
+But there is an other problem with that...
+When you create code on mac, compile it and publish it, that code can only be run on a mac because it was compiled for that specific os itself.
+The same process happens vice versa, for windows, Linux, and UNIX and chrome os, etc
+But Java has a solution to this....
+The src code is converted into BYTE CODE (which appears as a .class file) and then once its on viewers' respective operating systems it will then compile into binary code.
+Every Main Java program is created with a class.
+A class is like a USER_DEFINED node/blueprint
+Its similar to a section of a supermarket where similar items are sold.
+In a class methods related to each other are marked under the same class
+
+
+Every Java program has one main method.
+A function is a block of code that performs a task. Function for anything.
+Functions also known as METHODS.
+To create one you have to first specify the returnTYPE of function
+For instance some functions return a number or a string yet some functions return nothing like void.
+Types of returnTYPES in a method ---------
+If I am doing addition then the return type would be int.
+If I want to return the name of the user then the return type would be String.
+If I want to return a list of array containing some data then it would be Array List.
+If I want to return if a connection was successful or not then Boolean.
+Sometimes if you want no return yet just a simple method we use void because we don't want any iterative value back
+After the returnTYPE, we have the name if the function which is what is used to call it back.
+A method must always be called back inorder for it to work.
+The next part is the parenthesis in which the next we write the parameters for the method. (If im making a "sendmail()" function then in the parameters i would out in the recipients, subject etc.)
+
+Sometimes to organize the classes and methods in one huge project you may add a package to organize all your classes and methods,
+For instance if i wanted to store all classes and methods from a certain java file into a package then at the top of the program i would simply say...
+package com.abhay;
+Package is the keyword in this line and the com.abhay is the package name, you can name it whatever you want.
+
+
+
+
+
+
+
+
+
+
+
