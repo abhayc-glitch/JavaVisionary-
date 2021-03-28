@@ -2,7 +2,7 @@ package com.abhay;
 
 import java.util.Scanner;
 
-public class OOPSrealshit {
+public class OOPS {
     public static void main(String[] args){
         // objects are something that have a class that we can assign attributes(characteristics) nad we can encorperate methods (abilities.)
         //This creates a car object
