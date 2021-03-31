@@ -11,4 +11,7 @@ public class Human{
         this.weight = weight;
         //the "THis" keyword to call another constructor in the same class
     }
+    void eat(){
+        System.out.println(this.name + " is eating.");
+    }
 }
