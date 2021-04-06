@@ -6,6 +6,9 @@ import java.util.ArrayList;
 public class Arraylists {
     public static void main(String[] args){
         //ArrayLists == basically a resizable array.
+
+        // A BETTER VERSION OF ARRAY AND LIKE A PYTHON LIST
+
         //It grows its size to accommodate new elements and shrinks the size when the elements are removed.
         // ArrayList internally uses an array to store the elements. Just like arrays, It allows you to retrieve the elements by their index.
         // ONLY STORES REFERENCE DATA TYPES
